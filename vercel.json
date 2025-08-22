@@ -1,0 +1,14 @@
+{
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "cleanUrls": true,
+    "trailingSlash": false,
+    "redirects": [
+      { "source": "/github", "destination": "https://github.com/Tydo45", "permanent": false }
+    ],
+    "headers": [
+      {
+        "source": "/(.*)\\.webmanifest",
+        "headers": [{ "key": "Content-Type", "value": "application/manifest+json" }]
+      }
+    ]
+  }
