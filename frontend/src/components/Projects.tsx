@@ -4,25 +4,18 @@ import { ExternalLink, LinkIcon } from "lucide-react";
 export default function Projects() {
     const projects = [
       {
-        title: "AP Dashboard & Invoice Processing",
+        title: "MoonBoard Route Difficulty Classification",
         summary:
-          "Company-wide AP workflow: PDF ingestion, LLM line-item parsing, SQL DW integrations, and React dashboard with row-level edits.",
-        tags: ["FastAPI", "SQL Server", "React", "pandas", "LLM"],
-        link: { href: "#", label: "Case Study" },
+          "Developed an attention-based Transformer model with the MSOE AI Club to classify MoonBoard climbing routes. Co-authored a research paper and presented results at the Midwest Instruction and Computing Symposium.",
+        tags: ["Python", "TesnorFlow", "Numpy", "Matplotlib"],
+        // link: { href: "#", label: "Preview" },
       },
       {
-        title: "Know Your Candidate",
+        title: "Portfolio Website",
         summary:
-          "Civic platform tracking candidate bios, stances, sources, and changes over time. Next.js frontend + scraping + summarization.",
-        tags: ["Next.js", "Tailwind", "FastAPI", "LLMs", "Scraping"],
-        link: { href: "#", label: "Preview" },
-      },
-      {
-        title: "Quant Research Stack",
-        summary:
-          "Modular Python platform for backtesting and model iteration. Cluster-based training by correlation, rich dashboards, CI/CD.",
-        tags: ["Python", "pandas", "sklearn", "Docker", "CI/CD"],
-        link: { href: "#", label: "Notes" },
+          "Developed and deployed a full-stack personal portfolio website with a React frontend and FastAPI backend to showcase projects, skills, and experience. The site is hosted on a Raspberry Pi using Docker and Cloudflare Tunnels, with automated CI/CD pipelines implemented in GitHub Actions to ensure seamless updates and containerized deployment.",
+        tags: ["Next.js", "TailwindCSS", "FastAPI", "React", "Docker", "GitHub Actions"],
+        // link: { href: "#", label: "Preview" },
       },
     ];
   
@@ -47,12 +40,12 @@ export default function Projects() {
               >
                 <div className="flex items-center justify-between gap-3">
                   <h3 className="text-lg font-semibold tracking-tight">{p.title}</h3>
-                  <a
+                  {/* <a
                     href={p.link.href}
                     className="inline-flex items-center gap-1 text-sm text-gray-600 hover:text-gray-900"
                   >
                     {p.link.label} <LinkIcon className="h-4 w-4" />
-                  </a>
+                  </a> */}
                 </div>
                 <p className="mt-3 text-sm text-gray-600">{p.summary}</p>
                 <div className="mt-4 flex flex-wrap gap-2">
