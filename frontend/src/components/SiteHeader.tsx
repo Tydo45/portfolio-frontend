@@ -25,7 +25,7 @@ export default function SiteHeader({
               <Download className="h-4 w-4" /> Resume
             </a>
             <a
-              href="mailto:ben@weberbw.com"
+              href="mailto:bwweber1103@gmail.com"
               className="inline-flex items-center gap-2 rounded-2xl bg-gray-900 text-white px-3.5 py-2 text-sm font-medium hover:bg-black"
             >
               <Mail className="h-4 w-4" /> Contact

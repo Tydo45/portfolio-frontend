@@ -1,20 +1,6 @@
 "use client";
 
 import { useMemo } from "react";
-import { motion } from "framer-motion";
-import {
-  ArrowRight,
-  Github,
-  Linkedin,
-  Mail,
-  ExternalLink,
-  FileCode,
-  Terminal,
-  Server,
-  Package,
-  Table,
-} from "lucide-react";
-
 
 import SiteHeader from "@/components/SiteHeader";
 import SiteFooter from "@/components/SiteFooter";

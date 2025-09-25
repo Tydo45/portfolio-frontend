@@ -13,10 +13,10 @@ export default function Contact() {
               </p>
               <div className="mt-6 flex flex-wrap gap-3">
                 <a
-                  href="mailto:ben@weberbw.com"
+                  href="mailto:bwweber1103@gmail.com"
                   className="inline-flex items-center gap-2 rounded-2xl bg-gray-900 text-white px-4 py-2.5 text-sm font-medium hover:bg-black"
                 >
-                  <Mail className="h-4 w-4" /> ben@weberbw.com
+                  <Mail className="h-4 w-4" /> bwweber1103@gmail.com
                 </a>
                 <a
                   href="https://github.com/Tydo45"
